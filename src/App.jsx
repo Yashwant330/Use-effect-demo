@@ -9,7 +9,7 @@ const App = () => {
     let res= await axios.get(`https://geocoding-api.open-meteo.com/v1/search?name=${city}&count=10&language=en&format=json`)
   
   }
-getlocation('Delhi')
+  // getlocation('sangli)
  
 
   let fetchData = async () => {
